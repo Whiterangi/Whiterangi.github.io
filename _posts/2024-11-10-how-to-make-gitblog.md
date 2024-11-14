@@ -102,7 +102,7 @@ git push
 
 # 4단계: Jekyll 테마 적용
 
-1. 테마 선택
+1. 
 [여기](http://jekyllthemes.org)에서 원하는 테마를 선택할 수 있습니다. 이 예시에서는 Chirpy 테마를 사용했습니다.
 
 2. [Chirpy GitHub 리포지토리](https://github.com/cotes2020/jekyll-theme-chirpy)에서 zip 파일로 다운로드하여 압축을 해제한 후, 로컬 리포지토리에 복사합니다.
