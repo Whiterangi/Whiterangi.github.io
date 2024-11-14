@@ -20,11 +20,16 @@ github를 이용하여 레포지토리명.github.io 형식의 블로그를 만�
 
 # 1 단계: 깃허브 레포지토리 생성
 1. 자신의 깃허브에서 ```githubusername.github.io```라는 이름의 레포지토리를 생성합니다. 저의 경우 아이디가 Whiterangi이므로 Whiterangi.github.io라는 이름의 레포지토리를 생성하였습니다.
+   ![repo_ex](https://github.com/Whiterangi/Whiterangi.github.io/blob/main/assets/img/blog%20img/2024-11-10-how-to-make-gitblog/1.png?raw=true)
    - 자신의 깃허브 아이디는 깃허브 profile에서 확인 가능합니다. (메인 사진 밑의 굵은 글씨 밑의 글씨)
    - 예를 들어 ```https://github.com/Whiterangi``` 저의 깃허브에 들어가보시면 Jeong Yoon Sun 밑에 Whiterangi라고 적혀있는 것을 보실 수 있습니다. 
+  ![profile_ex](https://github.com/Whiterangi/Whiterangi.github.io/blob/main/assets/img/blog%20img/2024-11-10-how-to-make-gitblog/2.png?raw=true)
 2. 레포지토리 생성 시 public으로 생성하며, Add a README file을 체크합니다.
+   ![making_repo](https://github.com/Whiterangi/Whiterangi.github.io/blob/main/assets/img/blog%20img/2024-11-10-how-to-make-gitblog/3.png?raw=true)
+   - 여기서 Repository name에서 오류가 나는 이유는 제가 이미 해당 이름의 레포지토리를 가지고 있기 때문입니다. 
 3. 생성한 레포지토리로 이동 후 상단의 Settings를 클릭합니다.
 4. Build and deployment에서 Deploy from a branch를 선택합니다. 
+   ![Setting_ex](https://github.com/Whiterangi/Whiterangi.github.io/blob/main/assets/img/blog%20img/2024-11-10-how-to-make-gitblog/4.png?raw=true)
 5. 사이트 주소는 ```https://githubusername.github.io```가 됩니다. 
 
 # 2단계: VScode 이용
@@ -49,6 +54,7 @@ github를 이용하여 레포지토리명.github.io 형식의 블로그를 만�
 ## git add, commit, push 방법
 ### vscode 활용
 1. vscode의 좌측 source control 에 들어간다.
+   ![vscode_ex](https://github.com/Whiterangi/Whiterangi.github.io/blob/main/assets/img/blog%20img/2024-11-10-how-to-make-gitblog/5.png?raw=true)
 2. Changes에서 변경 사항을 +한다.
 3. commit 내용을 쓰고 ```commit``` 버튼을 누른다.
 4. push를 완료한다.
@@ -121,6 +127,7 @@ git push
 
 1. GitHub 레포지토리의 **Settings**에서 **Pages** > **Build and deployment** > **Source**를 **GitHub Actions**로 설정합니다.
 2. **Configure** 버튼을 클릭합니다.
+![github_action](https://github.com/Whiterangi/Whiterangi.github.io/blob/main/assets/img/blog%20img/2024-11-10-how-to-make-gitblog/6.png?raw=true)
 3. ```commit changes...```를 클릭합니다.
 4. 변경사항을 커밋하고, 로컬 리포지토리에서 pull 합니다.
 
@@ -157,6 +164,7 @@ git push
 
 ## npm error code 3221225477
 저의 경우 6단계의 npm install && npm run build에서 오류가 발생했었습니다. 해당 오류 코드가 발생 시 chatgpt에게 물어보아도 Husky 파일을 수정하라는 말만 되풀이하게 됩니다.
+![error](https://github.com/Whiterangi/Whiterangi.github.io/blob/main/assets/img/blog%20img/2024-11-10-how-to-make-gitblog/7.png?raw=true)
 
 **해결방법**
 - 해당 오류가 발생 시 파일의 경로를 **모두 영어**로 바꾸면 오류가 해결됩니다. 
