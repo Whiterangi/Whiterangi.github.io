@@ -34,7 +34,7 @@ webmaster_verifications:
 ```
 1. git add, commit, push 후에 google search console 사이트로 돌아가 확인 버튼을 누릅니다.
 
-### 사이트맵 제출하기
+## 3단계: 사이트맵 제출하기
 1. 소유권 확인 완료 후 속성으로 이동합니다.
 2. 속성에서 > ```Sitemaps```에 들어갑니다.
 ![Sitemaps1](https://github.com/Whiterangi/Whiterangi.github.io/blob/main/assets/img/blog%20img/2024-11-17-search-exposurey/4.png?raw=true)
