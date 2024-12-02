@@ -688,7 +688,12 @@ $btn-mb: 0.5rem;
   height: 100%;
   overflow-y: auto;
   width: $sidebar-width;
-  background: var(--sidebar-bg);
+  /* background: var(--sidebar-bg); */
+  background: linear-gradient(
+    135deg,
+    rgb(216, 163, 172),
+    rgb(255, 206, 210)
+  ); /* 그라디언트 배경 */
   border-right: 1px solid var(--sidebar-border-color);
 
   /* Hide scrollbar for IE, Edge and Firefox */

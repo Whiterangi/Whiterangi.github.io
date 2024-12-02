@@ -1,6 +1,5 @@
 ---
 title: github로 githubio 블로그 제작하기
-author: Whiterangi
 date: 2024-11-10 16:10:00 +0900
 categories: [Blogging, Tutorial]
 tags: [writing]

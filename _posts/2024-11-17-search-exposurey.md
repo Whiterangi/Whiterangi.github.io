@@ -1,6 +1,5 @@
 ---
 title: chirpy github 블로그 검색 노출하기
-author: Whiterangi
 date: 2024-11-17 11:52:00 +0900
 categories: [Blogging, Tutorial]
 tags: [writing]
